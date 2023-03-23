@@ -44,8 +44,8 @@ function Mobile(){
   }
   return(
     <div>
-      <h2>Charge:{value}</h2>
-      <button onClick={decreaseCharge}>Battery down</button>
+      <h2>Charge: {value}</h2>
+      <button style={{backgroundColor:'blue',color:'white',borderRadius:'10px', padding: '10px', borderStyle:'none'}} onClick={decreaseCharge}>Battery down</button>
     </div>
   )
 }
